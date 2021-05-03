@@ -1,0 +1,290 @@
+2021-04-21 16:31:53 -  - exec CUpdateClientPartner::SearchModulesEx
+2021-04-21 16:31:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:31:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2021-04-21 16:31:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:31:55 -  - TIME SearchModulesEx(request) 1.868 sec
+2021-04-21 16:31:55 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:32:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-04-21 16:32:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:32:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-04-21 16:32:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:32:16 -  - TIME LoadModulesUpdates(request) 0.333 sec
+2021-04-21 16:32:16 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:32:16 - S - STEP
+2021-04-21 16:32:16 - LM4W01 - loadModule4Wizard-Step
+2021-04-21 16:32:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-04-21 16:32:17 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:32:17 -  - loadFile
+2021-04-21 16:32:17 - U - RETURN
+2021-04-21 16:32:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-04-21 16:32:17 -  - TIME UnGzipArchive 0.057 sec
+2021-04-21 16:32:17 -  - TIME UpdateStepModules 0.122 sec
+2021-04-21 16:32:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-04-21 16:32:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:32:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-04-21 16:32:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:32:18 -  - TIME LoadModulesUpdates(request) 0.329 sec
+2021-04-21 16:32:18 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:32:18 - STEP - Finish - NOUPDATES
+2021-04-21 16:32:18 - LM4W03 - Finish - NOUPDATES
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:37:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:37:02 -  - TIME GetUpdatesList(request) 0.332 sec
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-21 16:37:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-21 16:37:03 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-23 07:42:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-23 07:42:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-23 07:42:04 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-23 07:42:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-04-23 07:42:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-23 07:42:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-04-23 07:42:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-23 07:42:05 -  - TIME GetUpdatesList(request) 0.421 sec
+2021-04-23 07:42:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-04-23 07:42:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-04-23 07:42:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-04-23 07:42:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:48:42 -  - exec CUpdateClientPartner::SearchModulesEx
+2021-05-01 01:48:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:48:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:48:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:48:44 -  - TIME SearchModulesEx(request) 1.529 sec
+2021-05-01 01:48:44 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:08 -  - TIME LoadModulesUpdates(request) 0.377 sec
+2021-05-01 01:49:08 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:08 - S - STEP
+2021-05-01 01:49:08 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:09 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:09 -  - loadFile
+2021-05-01 01:49:17 - U - RETURN
+2021-05-01 01:49:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:19 -  - TIME UnGzipArchive 2.14 sec
+2021-05-01 01:49:29 -  - TIME UpdateStepModules 6.666 sec
+2021-05-01 01:49:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C15.5.1%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:30 -  - TIME LoadModulesUpdates(request) 0.375 sec
+2021-05-01 01:49:30 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:30 - S - STEP
+2021-05-01 01:49:30 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:30 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:30 -  - loadFile
+2021-05-01 01:49:30 - U - RETURN
+2021-05-01 01:49:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:30 -  - TIME UnGzipArchive 0.013 sec
+2021-05-01 01:49:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822970/bitrix.eshop/updater15.5.2.php'
+2021-05-01 01:49:31 -  - TIME UpdateStepModules 0.051 sec
+2021-05-01 01:49:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C15.5.2%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:31 -  - TIME LoadModulesUpdates(request) 0.364 sec
+2021-05-01 01:49:31 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:31 - S - STEP
+2021-05-01 01:49:31 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:32 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:32 -  - loadFile
+2021-05-01 01:49:32 - U - RETURN
+2021-05-01 01:49:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:32 -  - TIME UnGzipArchive 0.01 sec
+2021-05-01 01:49:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822972/bitrix.eshop/updater16.0.0.php'
+2021-05-01 01:49:32 -  - TIME UpdateStepModules 0.041 sec
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.0.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:33 -  - TIME LoadModulesUpdates(request) 0.351 sec
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:33 - S - STEP
+2021-05-01 01:49:33 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:33 -  - loadFile
+2021-05-01 01:49:34 - U - RETURN
+2021-05-01 01:49:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:34 -  - TIME UnGzipArchive 0.073 sec
+2021-05-01 01:49:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822974/bitrix.eshop/updater16.5.0.php'
+2021-05-01 01:49:34 -  - TIME UpdateStepModules 0.185 sec
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.5.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:35 -  - TIME LoadModulesUpdates(request) 0.365 sec
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:35 - S - STEP
+2021-05-01 01:49:35 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:35 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:35 -  - loadFile
+2021-05-01 01:49:36 - U - RETURN
+2021-05-01 01:49:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:36 -  - TIME UnGzipArchive 0.023 sec
+2021-05-01 01:49:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822976/bitrix.eshop/updater16.5.1/index.php'
+2021-05-01 01:49:36 -  - TIME UpdateStepModules 0.065 sec
+2021-05-01 01:49:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.5.1%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:37 -  - TIME LoadModulesUpdates(request) 0.365 sec
+2021-05-01 01:49:37 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:37 - S - STEP
+2021-05-01 01:49:37 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:37 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:37 -  - loadFile
+2021-05-01 01:49:37 - U - RETURN
+2021-05-01 01:49:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:37 -  - TIME UnGzipArchive 0.011 sec
+2021-05-01 01:49:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822977/bitrix.eshop/updater16.5.2.php'
+2021-05-01 01:49:38 -  - TIME UpdateStepModules 0.026 sec
+2021-05-01 01:49:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:38 -  - TIME LoadModulesUpdates(request) 0.357 sec
+2021-05-01 01:49:38 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:38 - S - STEP
+2021-05-01 01:49:38 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:39 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:39 -  - loadFile
+2021-05-01 01:49:39 - U - RETURN
+2021-05-01 01:49:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:39 -  - TIME UnGzipArchive 0.022 sec
+2021-05-01 01:49:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822979/bitrix.eshop/updater16.5.3.php'
+2021-05-01 01:49:39 -  - TIME UpdateStepModules 0.221 sec
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.5.3%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:40 -  - TIME LoadModulesUpdates(request) 0.371 sec
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:40 - S - STEP
+2021-05-01 01:49:40 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:40 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:40 -  - loadFile
+2021-05-01 01:49:41 - U - RETURN
+2021-05-01 01:49:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:41 -  - TIME UnGzipArchive 0.045 sec
+2021-05-01 01:49:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822981/bitrix.eshop/updater16.5.4.php'
+2021-05-01 01:49:41 -  - TIME UpdateStepModules 0.099 sec
+2021-05-01 01:49:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C16.5.4%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:42 -  - TIME LoadModulesUpdates(request) 0.368 sec
+2021-05-01 01:49:42 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:42 - S - STEP
+2021-05-01 01:49:42 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:42 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:42 -  - loadFile
+2021-05-01 01:49:43 - U - RETURN
+2021-05-01 01:49:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:43 -  - TIME UnGzipArchive 0.085 sec
+2021-05-01 01:49:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822983/bitrix.eshop/updater17.0.0/index.php'
+2021-05-01 01:49:43 -  - TIME UpdateStepModules 0.157 sec
+2021-05-01 01:49:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C17.0.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:46 -  - TIME LoadModulesUpdates(request) 2.664 sec
+2021-05-01 01:49:46 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:46 - S - STEP
+2021-05-01 01:49:46 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:47 -  - loadFile
+2021-05-01 01:49:47 - U - RETURN
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:47 -  - TIME UnGzipArchive 0.021 sec
+2021-05-01 01:49:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822987/bitrix.eshop/updater17.0.1.php'
+2021-05-01 01:49:47 -  - TIME UpdateStepModules 0.062 sec
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C17.0.1%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:48 -  - TIME LoadModulesUpdates(request) 0.374 sec
+2021-05-01 01:49:48 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:48 - S - STEP
+2021-05-01 01:49:48 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:48 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:48 -  - loadFile
+2021-05-01 01:49:51 - U - RETURN
+2021-05-01 01:49:51 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:51 -  - TIME UnGzipArchive 0.52 sec
+2021-05-01 01:49:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822991/bitrix.eshop/updater17.5.0.php'
+2021-05-01 01:49:54 -  - TIME UpdateStepModules 1.862 sec
+2021-05-01 01:49:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C17.5.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:55 -  - TIME LoadModulesUpdates(request) 0.365 sec
+2021-05-01 01:49:55 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:55 - S - STEP
+2021-05-01 01:49:55 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:55 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:55 -  - loadFile
+2021-05-01 01:49:56 - U - RETURN
+2021-05-01 01:49:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:49:57 -  - TIME UnGzipArchive 0.322 sec
+2021-05-01 01:49:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1619822996/bitrix.eshop/updater18.0.0/index.php'
+2021-05-01 01:49:58 -  - TIME UpdateStepModules 0.938 sec
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:49:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C18.0.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:49:59 -  - TIME LoadModulesUpdates(request) 0.337 sec
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:59 - S - STEP
+2021-05-01 01:49:59 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:49:59 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:49:59 -  - loadFile
+2021-05-01 01:50:00 - U - RETURN
+2021-05-01 01:50:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:50:00 -  - TIME UnGzipArchive 0.16 sec
+2021-05-01 01:50:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1619823000/bitrix.eshop/updater18.5.0/index.php'
+2021-05-01 01:50:01 -  - TIME UpdateStepModules 0.421 sec
+2021-05-01 01:50:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:50:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:50:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C18.5.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:50:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:50:02 -  - TIME LoadModulesUpdates(request) 0.351 sec
+2021-05-01 01:50:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:50:02 - S - STEP
+2021-05-01 01:50:02 - LM4W01 - loadModule4Wizard-Step
+2021-05-01 01:50:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:50:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:50:02 -  - loadFile
+2021-05-01 01:50:02 - U - RETURN
+2021-05-01 01:50:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-05-01 01:50:02 -  - TIME UnGzipArchive 0.051 sec
+2021-05-01 01:50:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1619823002/bitrix.eshop/updater20.5.0.php'
+2021-05-01 01:50:03 -  - TIME UpdateStepModules 0.186 sec
+2021-05-01 01:50:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-05-01 01:50:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-05-01 01:50:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.4.13&NGINX=Y&dbv=10.5.9&instm=main%2C20.200.300%2CY%3Bb24connector%2C20.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Bsocialservices%2C20.0.500%2CN%3Bmessageservice%2C20.100.0%2CN%3Btranslate%2C20.100.0%2CN%3Bfileman%2C20.5.0%2CN%3Bui%2C20.5.887%2CN%3Brest%2C20.50.150%2CN%3Bperfmon%2C20.100.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bseo%2C20.0.400%2CN%3Blanding%2C20.4.850%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Biblock%2C20.0.1150%2CN%3Bsearch%2C20.5.0%2CN%3Bclouds%2C20.100.0%2CN&reqm=bitrix.eshop&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-05-01 01:50:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-05-01 01:50:03 -  - TIME LoadModulesUpdates(request) 0.424 sec
+2021-05-01 01:50:03 -  - exec CUpdateClientPartner::ParseServerData
+2021-05-01 01:50:03 - STEP - Finish - NOUPDATES
+2021-05-01 01:50:03 - LM4W03 - Finish - NOUPDATES
